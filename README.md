@@ -34,7 +34,7 @@ def home():
         task = request.form.get("task")
         if task:
             tasks.append(task)
-    return render_template_string(HTML_TEMPLATE, tasks=tasks)
+    return render_template_string
 
 @app.route("/api/tasks", methods=["GET"])
 def get_tasks():
