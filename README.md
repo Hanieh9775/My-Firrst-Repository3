@@ -11,7 +11,7 @@ HTML_TEMPLATE = """
     <meta charset="UTF-8">
     <title>Task Manager</title>
 </head>
-<body>
+
     <h1>Simple Task Manager</h1>
     <form method="post">
         <input type="text" name="task" placeholder="Enter a new task" required>
